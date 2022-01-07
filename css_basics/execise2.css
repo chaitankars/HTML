@@ -1,0 +1,33 @@
+
+    margin: 0;
+    padding:0;
+    box-sizing: border box;
+}
+body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  margin: top 10%;
+}
+.wrapper h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.service{
+     display: flex;
+     text-align: center;
+     width: auto;
+     justify-content: center;
+}
+
+.service  .service_rep{
+   margin:5px;
+   margin-bottom: 50px;
+   width: 300px;
+}

@@ -1,0 +1,55 @@
+ * {
+    margin: 0;
+    padding:0;
+    box-sizing: border box;
+}
+.body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  margin: top 10%;
+}
+wrapper h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.service{
+     display: flex;
+     text-align: center;
+     width: auto;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.service  .service_rep{
+   margin:5px;
+   margin-bottom: 50px;
+   width: 300px;
+   padding:20px;
+   line-height: 20px;
+   position: relative;
+}
+.service_rep h3{
+    font-size: 26px;
+    margin-top: 50px;
+}
+ .service .service_rep .service_img{
+     width: 100px;
+     height: 100px;
+     border-radius:50%
+     position: absolute;
+     top: -50px;
+     left: 50%;
+     transform: translateX (-50%);
+ }
+.service .service_rep  .service_img img{
+    width:100px;
+    height: 100px;
+    padding: 10px
+}
