@@ -45,7 +45,7 @@ wrapper h1{
      border-radius:50%
      position: absolute;
      top: -50px;
-     left: 50%;
+     left : 50%;
      transform: translateX (-50%);
  }
 .service .service_rep  .service_img img{

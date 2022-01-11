@@ -1,10 +1,17 @@
 //3. Write a function that returns boolean flag if a number is between 5000 and 9999.
 
-  var num1 = '5000';
-  var num2 = '9999'
-  var num3 ='num1+num2'
- 
-  console.log(num>num2);
-  console.log(num1>=num2);
-  console.log(num1<num2);
-  console.log(unm1<=num2);
+const num1=parseInt(prompt("Enter the number"), "");
+
+function retBool(num1)
+{
+if (num1 >= 5000 && num1<=9999)
+{
+return true;
+}
+else
+{
+return false;
+}
+}
+
+console.log(retBool(num1));

@@ -64,8 +64,7 @@
 	"senator":"Bill Cassidy",
     "Population":"4,657,757",
 	"Income Rank":"48th",
-    "Area Rank":" 31st"
-    
+    "Area Rank":" 31st"   
     }, 
    {
     "name":" California",
@@ -75,7 +74,17 @@
 	"senator":"Dianne Feinstein",
     "Population":"39,538,223",
 	"Income Rank":"9th",
-    "Area Rank":"3rd"
-    
+    "Area Rank":"3rd"  
     }, 
+    {
+        "name":" New Jersey",
+        "capital":" Trenton",
+        "Largest city":"Newark",
+        "Governer":"Phil Murphy",
+        "senator":"Bob Menendez",
+        "Population":"9,288,994",
+        "Income Rank":"3rd",
+        "Area Rank":" 11th "
+        
+        }, 
 ]
